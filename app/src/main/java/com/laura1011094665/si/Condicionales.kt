@@ -29,6 +29,8 @@ fun main() {
     */
     var result: Int=(0..60).random()
     println(result)
+
+
     when(result){
         0 -> println("no hay resultados")
         1,2,3,4,5 -> println("hay menos de 5 resutados")
