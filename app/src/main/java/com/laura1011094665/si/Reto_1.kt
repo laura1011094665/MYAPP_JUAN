@@ -5,6 +5,12 @@ class Reto_1 {
 
 fun main() {
     println("bienvenido, juega con nosotros en juegos craps")
+    println("las reglas del juego son que si sacas con los dados los siguientes resultados ganas si no pierdes:")
+    println("1. Un par de unos en los dados")
+    println("2. Un total de 3 en los dados")
+    println("3. Un total de 11 en los dados")
+    println("4. Si se obtiene 2 o 12 en los dados")
+    println("5. Un total de 7 en los dados")
 
     var dado1:Int= (1..6).random()
     var dado2:Int=(1..6).random()
